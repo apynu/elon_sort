@@ -21,7 +21,9 @@ install(TARGETS elon_sort_shared elon_sort_static
         LIBRARY DESTINATION "./lib"
         ARCHIVE DESTINATION "./lib")
 
-add_executable(elon_sort_test test/test.cpp)
+add_executable(elon_sort_test
+		"test/elon_sort_test.cpp"
+)
 
 target_link_libraries(elon_sort_test PRIVATE elon_sort_static)
 target_include_directories(elon_sort_test PRIVATE ../include)
