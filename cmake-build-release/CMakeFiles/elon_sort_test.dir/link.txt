@@ -1,0 +1,1 @@
+/run/current-system/sw/bin/c++ -O3 -DNDEBUG CMakeFiles/elon_sort_test.dir/test/elon_sort_test.cpp.o -o elon_sort_test  libelon_sort.a

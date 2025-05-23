@@ -1,0 +1,4 @@
+ToolSet: 1.0 (local)Ninja: 1.12.1@/nix/store/4ninmpvcaxny8qaj2fhj1mkq2fa0prp6-clion-2024.3.4/clion/bin/ninja/linux/x64/ninja
+Options: 
+
+Options:

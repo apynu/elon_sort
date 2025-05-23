@@ -1,0 +1,10 @@
+/home/apynu/code/projects/elon_sort/cmake-build-debug/CMakeFiles/elon_sort_shared.dir
+/home/apynu/code/projects/elon_sort/cmake-build-debug/CMakeFiles/elon_sort_static.dir
+/home/apynu/code/projects/elon_sort/cmake-build-debug/CMakeFiles/elon_sort_test.dir
+/home/apynu/code/projects/elon_sort/cmake-build-debug/CMakeFiles/test.dir
+/home/apynu/code/projects/elon_sort/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/apynu/code/projects/elon_sort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/apynu/code/projects/elon_sort/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/apynu/code/projects/elon_sort/cmake-build-debug/CMakeFiles/install.dir
+/home/apynu/code/projects/elon_sort/cmake-build-debug/CMakeFiles/install/local.dir
+/home/apynu/code/projects/elon_sort/cmake-build-debug/CMakeFiles/install/strip.dir
