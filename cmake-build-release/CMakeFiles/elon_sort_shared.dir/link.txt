@@ -1,1 +1,0 @@
-/run/current-system/sw/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libelon_sort.so -o libelon_sort.so CMakeFiles/elon_sort_shared.dir/src/elon_sort.cpp.o

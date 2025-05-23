@@ -1,4 +1,0 @@
-/nix/store/4ninmpvcaxny8qaj2fhj1mkq2fa0prp6-clion-2024.3.4/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -S /home/apynu/code/projects/elon_sort -B /home/apynu/code/projects/elon_sort/cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /home/apynu/code/projects/elon_sort/cmake-build-debug

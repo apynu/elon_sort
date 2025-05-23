@@ -1,2 +1,0 @@
-/run/current-system/sw/bin/ar qc libelon_sort.a CMakeFiles/elon_sort_static.dir/src/elon_sort.cpp.o
-/run/current-system/sw/bin/ranlib libelon_sort.a
