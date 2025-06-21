@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 project(elon_sort VERSION 1.0 LANGUAGES CXX)
 
-include_directories("./include")
+include_directories("${CMAKE_CURRENT_LIST_DIR}/include")
 
 set(SOURCES 
 	"src/elon_sort.cpp"
@@ -16,17 +16,17 @@ set_target_properties(elon_sort_shared PROPERTIES OUTPUT_NAME "elon_sort")
 add_library(elon_sort_static STATIC ${SOURCES})
 set_target_properties(elon_sort_static PROPERTIES OUTPUT_NAME "elon_sort")
 
-install(DIRECTORY "./include/" DESTINATION "./include")
+install(DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/include" DESTINATION "${CMAKE_CURRENT_LIST_DIR}/lib")
 install(TARGETS elon_sort_shared elon_sort_static
-        LIBRARY DESTINATION "./lib"
-        ARCHIVE DESTINATION "./lib")
+	LIBRARY DESTINATION "${CMAKE_CURRENT_LIST_DIR}/lib"
+        ARCHIVE DESTINATION "${CMAKE_CURRENT_LIST_DIR}/lib")
 
 add_executable(elon_sort_test
 		"test/elon_sort_test.cpp"
 )
 
 target_link_libraries(elon_sort_test PRIVATE elon_sort_static)
-target_include_directories(elon_sort_test PRIVATE ../include)
+target_include_directories(elon_sort_test PRIVATE ../lib/include)
 
 # add ctest support
 enable_testing()

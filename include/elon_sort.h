@@ -1,12 +1,14 @@
-// i tried to use trailing return types here as a little test to see if they suit me
+// i tried to use trailing return types here as a little test to see if they
+// suit me
 #pragma once
 #include <vector>
 
-class elon_sort{
+class elon_sort {
 public:
-    elon_sort();
-    ~elon_sort() = default;
+  static auto sort(std::vector<int> &data_array) -> void;
 
-    auto sort(std::vector<int>& dataarray) -> void;
-    auto sort(std::vector<double>& dataarray) -> void;
+private:
+  // i hate the stl erase
+  // returns data_array without the erased element
+  static auto erase(std::vector<int> &data_array) -> std::vector<int>;
 };
