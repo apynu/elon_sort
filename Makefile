@@ -18,8 +18,11 @@ release: clean
 	@echo "Building in Release mode..."
 	mkdir -p $(RELEASE_DIR) && cd $(RELEASE_DIR) && cmake -DCMAKE_BUILD_TYPE=Release ..
 
-test: 	release
-	@echo "running tests..."
+test: all
+	@echo "running tests in debug..."
+	cd $(DEBUG_DIR) && make elon_sort_test && ctest
+
+	@echo "running tests in release..."
 	cd $(RELEASE_DIR) && make elon_sort_test && ctest
 
 install: release

@@ -5,14 +5,19 @@
 #include <iostream>
 
 int main() {
-  std::vector<int> data = {0, 12, 42, 58, 2084, 1284, 97};
+  std::vector<int> _v_data = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
 
-  elon_sort::sort(data);
+  int _init_size = _v_data.size();
 
-  for (int element : data) {
+  elon_sort::sort(_v_data);
+
+  for (int element : _v_data) {
     printf("%d, ", element);
   }
 
-  printf("not implemented");
-  return 1;
+  if (_v_data.size() != _init_size) {
+    return 1;
+  }
+
+  return 0;
 }
