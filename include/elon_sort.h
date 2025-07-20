@@ -3,7 +3,8 @@
 #pragma once
 #include <vector>
 
-class elon_sort {
-public:
-  static auto sort(std::vector<int> &data_array) -> void;
+class elon_sort
+{
+  public:
+    static auto sort(std::vector<int> &data_array) -> void;
 };
